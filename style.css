@@ -1,0 +1,68 @@
+.parent{
+    width: 500px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+body {
+    background-color: #f5f5f5;
+}
+li{
+    width: 450px;
+    height: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.addClass{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #1a53ff;
+    color: white;
+    cursor: pointer;    
+    border: none;
+}
+.input{
+    font-size: 20px;
+    width: 280px;
+}
+.headParent{
+    width: 93%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.list{
+    background-color:  #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+#ulClass{
+    margin-right: 20px;
+}
+.fa-solid{
+    color: #1a53ff;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.fa-solid:hover {
+    font-size: 16px;
+    transition: 1s;
+}
+.titleDiv{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 35px;
+    font-weight: 600;
+    color:  #0933af;
+    letter-spacing: 2px;
+}
